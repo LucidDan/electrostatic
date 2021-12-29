@@ -30,7 +30,7 @@ jobs:
               python -m pipx install poetry==1.1.12
               poetry install
       - name: Run checks
-        run: poetry run pytest --junitxml=test-results-${{ matrix.python-version }}-${{ matrix.os }}.xml --cov=com --cov-report=xml --cov-report=html
+        run: poetry run pytest --junitxml=test-results-${{ matrix.python-version }}-${{ matrix.os }}.xml --cov=electrostatic --cov-report=xml --cov-report=html
       - name: Upload pytest test results
         uses: actions/upload-artifact@v2
         with:
