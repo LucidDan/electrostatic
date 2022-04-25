@@ -35,7 +35,7 @@ watchdog = {version="^2.1.6", optional=true}
 black  = { version = "^21.12b0"}
 isort  = { version = "^5.10.1"}
 mypy = {version = "^0.930"}
-pytest  = { version = "^6.2.4"}
+pytest  = { version = "^7.1.2"}
 pytest-cov  = { version = "^3.0.0"}
 pytest-asyncio = "^0.16.0"
 pre-commit = {version = "^2.16.0"}
