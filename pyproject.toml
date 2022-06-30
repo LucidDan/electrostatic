@@ -49,7 +49,7 @@ async-asgi-testclient = { git = "https://github.com/LucidDan/async-asgi-testclie
 #toml = {version = "^0.10.2"}
 #bump2version = {version = "^1.0.1"}
 
-tox  = { version = "^3.20.1", optional = true}
+tox  = { version = "^3.25.1", optional = true}
 uvicorn = {version = "*", optional = true}
 daphne = {version = "*", optional = true}
 Hypercorn = {version = "*", optional = true }
