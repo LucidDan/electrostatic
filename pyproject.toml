@@ -37,7 +37,7 @@ isort  = { version = "^5.10.1"}
 mypy = {version = "^0.930"}
 pytest  = { version = "^6.2.4"}
 pytest-cov  = { version = "^3.0.0"}
-pytest-asyncio = "^0.16.0"
+pytest-asyncio = "^0.20.1"
 pre-commit = {version = "^2.16.0"}
 async-asgi-testclient = { git = "https://github.com/LucidDan/async-asgi-testclient.git", branch = "poetry" }
 #mkdocs  = { version = "^1.1.2"}
