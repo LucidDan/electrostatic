@@ -32,7 +32,7 @@ asgiref = "^3.4.1"
 watchdog = {version="^2.1.6", optional=true}
 
 [tool.poetry.dev-dependencies]
-black  = { version = "^21.12b0"}
+black  = { version = "^22.12"}
 isort  = { version = "^5.10.1"}
 mypy = {version = "^0.930"}
 pytest  = { version = "^6.2.4"}
